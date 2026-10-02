@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glowing concentric sound wave rings -->
+    <path
+        android:strokeColor="#5038BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M26,54 A28,28 0 0 1 82,54" />
+    <path
+        android:strokeColor="#8038BDF8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M32,54 A22,22 0 0 1 76,54" />
+
+    <!-- Wave bars emanating vertically -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M35,46 L37,46 L37,62 L35,62 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M41,39 L43,39 L43,69 L41,69 Z" />
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M47,32 L49,32 L49,76 L47,76 Z" />
+
+    <!-- Outer Orb Ring -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,26 A28,28 0 1 1 53.9,26 Z" />
+
+    <!-- Inner Glowing Core Orb -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M54,34 A20,20 0 1 1 53.9,34 Z" />
+
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M59,32 L61,32 L61,76 L59,76 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M65,39 L67,39 L67,69 L65,69 Z" />
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M71,46 L73,46 L73,62 L71,62 Z" />
+
+    <!-- Center Bright White Light -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,46 A8,8 0 1 1 53.9,46 Z" />
+
+    <!-- AI Spark Accent -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,32 L74,35 L77,37 L74,39 L72,42 L70,39 L67,37 L70,35 Z" />
+</vector>
